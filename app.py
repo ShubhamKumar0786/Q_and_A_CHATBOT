@@ -12,7 +12,7 @@ llm=st.sidebar.selectbox("Select Open Source model",["Gemma3","mistral"])
 
 ## Adjust response parameter
 temperature=st.sidebar.slider("Temperature",min_value=0.0,max_value=1.0,value=0.7)
-max_tokens = st.sidebar.slider("Max Tokens", min_value=50, max_value=300, value=150)
+max_tokens = st.sidebar.slider("Max Tokens", min_value=50, max_value=500, value=300)
 
 ## MAin interface for user input
 st.write("Go ahead and ask any question")
